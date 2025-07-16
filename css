@@ -1,0 +1,28 @@
+| Type of CSS | Location              | Use Case                         |
+| ----------- | --------------------- | -------------------------------- |
+| Inline      | Inside HTML element   | Quick styling, single element    |
+| Internal    | `<style>` in `<head>` | Page-specific styles             |
+| External    | Separate `.css` file  | Reusable, clean, multi-page site |
+
+
+!important Rule
+The !important rule is used to override all other conflicting rules, including inline styles.
+
+p {
+  color: green !important;
+}
+
+
+## CSS Syntax: 
+selector {
+  property: value;
+}
+Example:
+
+h1 {
+  color: purple;
+  font-size: 24px;
+
+h1 → Selector (the HTML element)
+color → Property (what you want to change)
+purple → Value (how you want it to appear)
