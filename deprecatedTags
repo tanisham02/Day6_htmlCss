@@ -1,0 +1,21 @@
+| Deprecated Tag | Purpose                         | Modern Alternative (Use This Instead)                |
+| -------------- | ------------------------------- | ---------------------------------------------------- |
+| `<center>`     | Center-align text/content       | `text-align: center;` via CSS                        |
+| `<font>`       | Set font color, size, face      | `color`, `font-size`, `font-family` via CSS          |
+| `<big>`        | Slightly larger text            | `font-size: larger;` or `1.2em` via CSS              |
+| `<small>`\*    | Smaller text                    | Still valid, but prefer CSS for control              |
+| `<blink>`      | Blinking text (was in Netscape) | Not supported; use CSS animation (not recommended)   |
+| `<marquee>`    | Scrolling text                  | CSS animations or JavaScript (not recommended)       |
+| `<basefont>`   | Set base font for whole page    | CSS `body { font-family: ...; }`                     |
+| `<s>`\*        | Strikethrough text              | Use `<del>` (for deletions) or `text-decoration` CSS |
+| `<strike>`     | Same as `<s>`                   | Same as above                                        |
+| `<u>`\*        | Underlined text                 | Use CSS `text-decoration: underline;`                |
+| `<tt>`         | Teletype / monospaced text      | `<code>` or CSS `font-family: monospace;`            |
+| `<xmp>`        | Display preformatted text       | Use `<pre>` instead                                  |
+| `<dir>`        | Directory list (like `<ul>`)    | Use `<ul>`                                           |
+| `<menu>`\*     | Used as a list or menu          | Use `<ul>` or `<nav>` for navigation                 |
+| `<isindex>`    | Single-line search input        | Use `<form><input type="text">`                      |
+| `<applet>`     | Embed Java applets              | Use `<object>` or `<embed>` (Java support dropped)   |
+| `<noframes>`   | Fallback for frames             | Frames are deprecated entirely                       |
+| `<frame>`      | Used in `<frameset>`            | Use `<iframe>` instead                               |
+| `<frameset>`   | Layout using frames             | Use modern layouts with `<div>` + CSS                |
